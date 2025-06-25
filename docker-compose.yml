@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+  prueba-service:
+    image: faviohuaman18/docker-microservicio:3.0
+    ports:
+      - "8085:8085"
+    environment:
+      - PORT=8085
